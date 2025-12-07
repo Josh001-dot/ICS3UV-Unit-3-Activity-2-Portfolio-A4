@@ -12,9 +12,9 @@ const line3: string | null = prompt("Enter line 3:");
 const line4: string | null = prompt("Enter line 4:");
 
 // Display the lines in reverse order
-console.log(line4 ?? "");
-console.log(line3 ?? "");
-console.log(line2 ?? "");
-console.log(line1 ?? "");
+console.log(line4 !== null ? line4 : "");
+console.log(line3 !== null ? line3 : "");
+console.log(line2 !== null ? line2 : "");
+console.log(line1 !== null ? line1 : "");
 
 console.log("\nDone.");
